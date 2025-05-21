@@ -26,5 +26,17 @@ body {
 }
 
 .board {
-  margin-bottom: 60px;
+  margin: 60px;
+}
+
+.task {
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid rgba(52, 77, 103, 0.5);
+  border-radius: 6px;
+  width: 80%;
+}
+
+p {
+  color: #344d67;
 }
