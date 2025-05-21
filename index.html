@@ -11,13 +11,29 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+    <script src="./drag.js" defer></script>
+    <script src="./todo.js" defer></script>
   </head>
   <body>
     <h2>Kanban Board</h2>
     <div class="board">
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
+      <form id="todo-form">
+        <input type="text" placeholder="Type here" id="todo-input" />
+        <button type="submit">+</button>
+      </form>
+    </div>
+    <div class="lanes">
+      <div class="swim-lane" id="todo-lane">
+        <p class="task" draggable="true">Hello</p>
+        <p class="task" draggable="true">There</p>
+        <p class="task" draggable="true">How are you</p>
+      </div>
+      <div class="swim-lane">
+        <p class="task" draggable="true">Hello</p>
+      </div>
+      <div class="swim-lane">
+        <p class="task" draggable="true">Hello</p>
+      </div>
     </div>
   </body>
 </html>
