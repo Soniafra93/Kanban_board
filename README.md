@@ -1,3 +1,5 @@
 # Kanban_board
 
-In this repo I am practising the developing of a Kanban Board
+This is a Kenban Board developer with HTML, CSS and JS.
+You can add a task to the list and then drag and drop it in the ongoing and completed categories.
+
